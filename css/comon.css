@@ -1,0 +1,18 @@
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.btn {
+    background: #14B1BB;
+    color: white !important;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 17px !important;
+    transition: 0.7s;
+}
+
+.btn:hover {
+    background: #000;
+    transition: 0.7s;
+}
