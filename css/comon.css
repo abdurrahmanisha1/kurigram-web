@@ -10,9 +10,30 @@
     border-radius: 30px;
     font-size: 17px !important;
     transition: 0.7s;
+    border: none;
 }
 
 .btn:hover {
     background: #000;
     transition: 0.7s;
+}
+
+.section-hedding {
+    font-size: 40px;
+    text-align: center;
+}
+
+.section-style {
+    border: none;
+    height: 5px;
+    background: #14B1BB;
+    width: 10%;
+    margin: 20px auto;
+}
+
+.section-desc {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }

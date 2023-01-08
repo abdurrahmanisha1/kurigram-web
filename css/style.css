@@ -7,6 +7,9 @@
     font-family: sans-serif;
 }
 
+/* ====================================== */
+/* =====          Header           ====== */
+/* ====================================== */
 header {
     background: white;
     height: 100px;
@@ -53,4 +56,99 @@ header .row .column-nav nav ul li a {
     font-weight: 600;
     font-size: 19px;
     color: black;
+    transition: 0.7s;
 }
+
+header .row .column-nav nav ul li a:hover {
+    color: #14B1BB;
+    transition: 0.7s;
+}
+
+/* ====================================== */
+/* =====       End  Header       ====== */
+/* ====================================== */
+
+
+
+/* ====================================== */
+/* =====       Banner Section       ====== */
+/* ====================================== */
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background: url(https://demo.themexbd.com/rtl/kurigram/wp-content/uploads/2021/07/slider3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner .content {
+    width: 60%;
+    padding-top: 150px;
+}
+
+.banner .content h1 {
+    font-size: 70px;
+}
+
+.banner .content p {
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.banner .content .btn-dark {
+    background: black;
+}
+
+/* ====================================== */
+/* =====       Banner Section  end      ====== */
+/* ====================================== */
+
+/* ====================================== */
+/* =====       Feature Section       ====== */
+/* ====================================== */
+.feature {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    /* text-align: center; */
+}
+
+
+.feature .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature .row .feature-column {
+    background: #14B1BB;
+    width: 30%;
+    text-align: center;
+    color: white;
+    padding: 60px 25px;
+    box-shadow: 5px 10px 30px gray;
+}
+
+.feature .row .feature-column i {
+    font-size: 60px;
+}
+
+.feature .row .feature-column h1 {
+    padding: 10px 0;
+    padding-top: 20px;
+}
+
+.feature .row .feature-column p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+
+.feature .row .feature-column .feature-btn {
+    border: 2px solid white;
+}
+
+/* ====================================== */
+/* =====       Feature Section  end      ====== */
+/* ====================================== */
