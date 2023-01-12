@@ -94,6 +94,7 @@ header .row .column-nav nav ul li a:hover {
 .banner .content p {
     padding: 20px 0;
     font-size: 18px;
+    line-height: 35px;
 }
 
 .banner .content .btn-dark {
