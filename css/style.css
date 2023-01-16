@@ -153,3 +153,85 @@ header .row .column-nav nav ul li a:hover {
 /* ====================================== */
 /* =====       Feature Section  end      ====== */
 /* ====================================== */
+
+/* ====================================== */
+/* =====       About Section       =========== */
+/* ====================================== */
+.about {
+    /* background: darkorchid; */
+    height: 80vh;
+}
+
+.about .row {
+    display: flex;
+}
+
+.about .row .column-img {
+    width: 50%;
+    height: 67vh;
+    background: url(../img/banner/slider3.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.about .row .column-desc {
+    width: 45%;
+    height: 100%;
+    margin-left: 3%;
+    /* background-color: rgb(149, 80, 80); */
+}
+
+.about .row .column-desc h1 {
+    font-size: 40px;
+    /* margin-bottom: 40px; */
+}
+
+.about .row .column-desc .company {
+    display: flex;
+    /* background-color: blue; */
+    margin-top: 30px;
+}
+
+.about .row .column-desc .company .icone-column {
+    width: 15%;
+}
+
+.about .row .column-desc .company .icone-column i {
+    font-size: 40px;
+    color: #14B1BB;
+}
+
+.about .row .column-desc .company .desc-column {
+    width: 85%;
+}
+
+.about .row .column-desc .company .desc-column h2 {
+    margin-bottom: 7px;
+}
+
+.about .row .column-desc .company .desc-column p {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+/* ==== prograss bar ========= */
+.about .row .column-desc .pro-sec {
+    margin-top: 30px;
+}
+
+.about .row .column-desc .pro-sec .prograss {
+    height: 8px;
+    width: 100%;
+    margin-top: 6px;
+    background: gray;
+}
+
+.about .row .column-desc .pro-sec .prograss .pro-bar {
+    height: 100%;
+    width: 85%;
+    background: #14B1BB;
+}
+
+/* ====================================== */
+/* =====       About Section  end      ====== */
+/* ====================================== */
