@@ -235,3 +235,67 @@ header .row .column-nav nav ul li a:hover {
 /* ====================================== */
 /* =====       About Section  end      ====== */
 /* ====================================== */
+
+/* ====================================== */
+/* =====       Service Section        ====== */
+/* ====================================== */
+.service {
+    height: auto;
+    width: 100%;
+    background: #f2f1f1;
+    padding: 40px 0;
+    margin-bottom: 30px;
+}
+
+.service .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service .row .column {
+    height: auto;
+    width: 32%;
+    background: #fff;
+    margin: 1% 0;
+    box-shadow: 5px 5px 20px rgb(169, 169, 169);
+}
+
+.service .row .column .ser-row-1 {
+    height: auto;
+    padding: 20px;
+    background: #14B1BB;
+    display: flex;
+    color: #fff;
+}
+
+.service .row .column .ser-row-1 i {
+    font-size: 40px;
+    margin-right: 20px;
+    padding-top: 3px;
+}
+
+.service .row .column .ser-row-1 .content {}
+
+.service .row .column .ser-row-1 .content h2 {}
+
+.service .row .column .ser-row-1 .content p {}
+
+.service .row .column .ser-row-2 {
+    height: auto;
+    padding: 27px;
+}
+
+.service .row .column .ser-row-2 p {
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+.service .row .column .ser-row-2 div:nth-child(odd) {
+    margin-bottom: 20px;
+}
+
+
+/* ====================================== */
+/* =====       Service Section  end      ====== */
+/* ====================================== */
