@@ -299,3 +299,83 @@ header .row .column-nav nav ul li a:hover {
 /* ====================================== */
 /* =====       Service Section  end      ====== */
 /* ====================================== */
+
+
+/* ====================================== */
+/* =====       Contact Section        ====== */
+/* ====================================== */
+.contact {
+    height: auto;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.contact .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .row .column-1 {
+    width: 65%;
+    height: 450px;
+    background: #fff;
+    box-shadow: 5px 5px 20px rgb(169, 169, 169);
+    padding: 50px;
+    border-radius: 7px;
+}
+
+.contact .row .column-1 .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact .row .column-1 .form-group input {
+    width: 49%;
+    background: #14B1BB;
+    color: #fff;
+    padding: 16px;
+    border-radius: 6px;
+    border: none;
+}
+
+.contact .row .column-1 .form-group input::placeholder {
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact .row .column-1 .form-group textarea {
+    background: #14B1BB;
+    color: #fff;
+    border: none;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.contact .row .column-1 .form-group button {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.contact .row .column-2 {
+    width: 33%;
+    height: 450px;
+    /* background: #14B1BB */
+}
+
+.contact .row .column-2 .box {
+    background: #fff;
+    box-shadow: 5px 5px 20px rgb(169, 169, 169);
+    padding: 20px;
+    margin-bottom: 35.7px;
+    border-radius: 7px;
+    border-left: 5px solid #14B1BB;
+}
+
+.contact .row .column-2 .box h2 {}
+
+.contact .row .column-2 .box p {}
+
+/* ====================================== */
+/* =====       Contact Section  end      ====== */
+/* ====================================== */
