@@ -5,6 +5,7 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* ====================================== */
@@ -16,6 +17,7 @@ header {
     display: flex;
     align-items: center;
     border-bottom: 5px solid #14B1BB;
+    /* position: fixed; */
 }
 
 header .row {
